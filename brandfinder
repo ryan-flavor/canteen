@@ -1,0 +1,57 @@
+#finder-body{
+    background: transparent;
+    font-family: din-2014, sans-serif;
+}
+
+#finder-content{
+    background: #002553;
+    -webkit-box-shadow: 5px 5px 15px -1px #000000; 
+    box-shadow: 5px 5px 15px -1px #000000;  
+    border-radius: 15px;
+    width: 80%;
+}
+
+#finder-body a{
+    color: #fff !important;
+    background: inherit !important;
+    border: none !important;
+}
+
+#finder-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 1rem;
+}
+
+.nav-tabs{
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.tab-pane{
+    background: #3e6db4;
+    border: none;
+    width: 80%;
+    color: white;
+}
+
+.panel-body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.finder_form_right{
+    display: flex;
+}
+
+.search{
+    background: white;
+    border: 1px solid #333 !important;
+    color: #333;
+    margin: auto;
+    padding: 0 3rem;
+    text-transform: uppercase;
+}
